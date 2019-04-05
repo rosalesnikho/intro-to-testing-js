@@ -4,10 +4,6 @@ function helloWorld() {
 };
 
 function sayHello(name) {
-    if(name === "Alex") {
-        return "Hello, Alex!";
-    } else {
-        return "Hello, Jane!"
-    }
+    return "Hello, " + name + "!"
 };
 
